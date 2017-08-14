@@ -1,0 +1,15 @@
+2.
+
+Server:
+    Routes: 設計 Restful API 讓前端可以串資料
+        會員系統: 使用者可以註冊與登入
+        分享系統: 使用者可以撰寫評論並發表
+        瀏覽頁面: 使用者可以觀看其他用的的評論
+    Middlewares:
+        1. Authentication 檢查：透過寄放在 Client 端的 Session ID 檢查使用者是否已登入
+
+Database: 儲存使用者資訊、使用者評分、咖啡廳資訊等資料
+
+其他想法:
+    串接 fb api, 使其評論可以在 fb 分享
+    串接 google map api, 使用者可以透過地圖觀看咖啡廳地點
